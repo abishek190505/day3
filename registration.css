@@ -1,0 +1,82 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:aquamarine;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    background-color: #00b894;
+    display: flex;
+    height: 100vh;
+}
+.login-container {
+    justify-content: center;
+    background-color: red;
+    margin: 70px;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:black;
+    width: 10px;
+}
+    from{
+        height: 500px;
+        padding: 15px;
+        margin-left: 300px;
+        margin-right: 300px;
+        border-radius: 5px;
+        background-color: darkcyan;
+    }
+    label{
+        display:block;
+        margin: 1px;
+        font-weight: bold;
+    }
+    select{
+        width:70%;
+        padding: 4px;
+        border: 1px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    input[type = "submit"]{
+        color:blue;
+        background-color:rgb(196, 197, 245) ;
+        cursor: grab;
+        margin-top: 7px;
+        margin-left: 10px;
+    }
+    input[text="submit"]:hover{
+        background-color: blue;
+    }
+    .main{
+        width: 400px;
+        margin: auto;
+        height: auto;
+    }
+    input[type="text"]{
+        width: 70%;
+    }
+    input[type="password"]{
+        width: 70%;
+    }
+    input[type="tel"]{
+        width: 70%;
+    }
+    textarea{
+        width: 70%;
+        height: 130px;
+    }
+    .form {
+        border: 2px solid black; 
+        background-color: rgb(11, 137, 221); 
+        padding: 20px;
+        width: 500px; 
+        margin: auto; 
+        border-radius: 100px; 
+    }
